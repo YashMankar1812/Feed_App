@@ -1,12 +1,56 @@
-# React + Vite
+#  📱Social Feed App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based social feed application that displays user posts with images, likes, and infinite scrolling functionality.
 
-Currently, two official plugins are available:
+## Features
+- Displays user-generated posts with avatars, text, and images.
+- Implements infinite scrolling to load more posts dynamically.
+- Allows users to see tags and like posts.
+- Responsive and styled using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/social-feed-app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd social-feed-app
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Folder Structure
+```
+/social-feed-app
+│── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│── public/
+│── package.json
+│── README.md
+```
+
+## Usage
+- Open `http://localhost:5173/` in your browser.
+- Scroll down to load more posts automatically.
+- Click the like button to interact with posts.
+
+## Future Enhancements
+- User authentication and post creation.
+- Commenting functionality.
+
+## License
+This project is licensed under the MIT License.
