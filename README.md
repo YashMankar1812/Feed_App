@@ -52,5 +52,8 @@ A simple React-based social feed application that displays user posts with image
 - User authentication and post creation.
 - Commenting functionality.
 
+- ## Demo
+- https://feed-app-iota.vercel.app/
+
 ## License
 This project is licensed under the MIT License.
